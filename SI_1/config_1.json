@@ -1,0 +1,77 @@
+{
+  "biophys": [
+    {
+      "log_config_path": "logging.conf", 
+      "model_file": [
+        "config_1.json"
+      ], 
+      "output_dir": "output_1"
+    }
+  ], 
+  "run": {
+    "tstop": 3000.0, 
+    "dt": 0.025
+  }, 
+  "syn_data_file": "example_1/syn_data_for_example_1.json", 
+  "neuron": [
+    {
+      "hoc": [
+        "stdgui.hoc", 
+        "import3d.hoc", 
+        "cell.hoc"
+      ]
+    }
+  ], 
+  "manifest": [
+    {
+      "type": "dir", 
+      "spec": ".", 
+      "key": "BASEDIR"
+    }, 
+    {
+      "parent_key": "BASEDIR", 
+      "type": "dir", 
+      "spec": "modfiles", 
+      "key": "MODFILE_DIR"
+    }, 
+    {
+      "type": "file", 
+      "spec": "example_1/1.csv", 
+      "key": "CELL_DB"
+    }
+  ], 
+  "postprocessing": {
+    "in_t_omit": 500.0, 
+    "post_t_omit": 0.0
+  }, 
+  "connections": "example_1/1_connections",
+  "ext_inputs": {
+    "example_1/inputs_spk.dat": {
+      "map": "example_1/inputs_map.csv", 
+      "trials_in_file": 10, 
+      "mode": "file", 
+      "t_shift": 0.0, 
+      "trial": 8
+    }
+  }, 
+  "cell_data_tracking": {
+    "SEClamp_insert_cell_gid_step": 200, 
+    "id_step_save_t_series": 5, 
+    "do_save_t_series": "yes", 
+    "SEClamp_insert": "yes", 
+    "SEClamp_insert_first_cell": 2
+  }, 
+  "conditions": [
+    {
+      "celsius": 34.0, 
+      "erev": [
+        {
+          "ena": 53.0, 
+          "section": "soma", 
+          "ek": -107.0
+        }
+      ], 
+      "v_init": -80
+    }
+  ]
+}

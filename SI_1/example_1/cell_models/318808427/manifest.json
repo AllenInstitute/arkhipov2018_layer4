@@ -1,0 +1,148 @@
+{
+  "biophys": [
+    {
+      "model_file": [
+        "manifest.json",
+        "473863035_fit.json"
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "sweeps": [
+        4,
+        69,
+        8,
+        23,
+        94,
+        32,
+        64,
+        54,
+        66,
+        42,
+        50,
+        2,
+        29,
+        76,
+        73,
+        14,
+        34,
+        38,
+        46,
+        85,
+        57,
+        95,
+        16,
+        47,
+        22,
+        49,
+        12,
+        89,
+        87,
+        31,
+        97,
+        56,
+        91,
+        35,
+        15,
+        17,
+        79,
+        82,
+        39,
+        98,
+        83,
+        44,
+        37,
+        13,
+        41,
+        10,
+        40,
+        90,
+        75,
+        78,
+        62,
+        33,
+        96,
+        43,
+        27,
+        3,
+        7,
+        19,
+        67,
+        88,
+        63,
+        51,
+        5,
+        93,
+        6,
+        60,
+        58,
+        68,
+        11,
+        36,
+        80,
+        28,
+        52,
+        70,
+        53,
+        0,
+        24,
+        20,
+        9,
+        1,
+        21,
+        74,
+        61,
+        92,
+        18,
+        77,
+        25,
+        48
+      ]
+    }
+  ],
+  "neuron": [
+    {
+      "hoc": [
+        "stdgui.hoc",
+        "import3d.hoc"
+      ]
+    }
+  ],
+  "manifest": [
+    {
+      "type": "dir",
+      "spec": ".",
+      "key": "BASEDIR"
+    },
+    {
+      "type": "dir",
+      "spec": "work",
+      "key": "WORKDIR",
+      "parent": "BASEDIR"
+    },
+    {
+      "type": "file",
+      "spec": "Nr5a1-Cre_Ai14_IVSCC_-169250.03.02.01_471087815_m.swc",
+      "key": "MORPHOLOGY"
+    },
+    {
+      "type": "dir",
+      "spec": "modfiles",
+      "key": "MODFILE_DIR"
+    },
+    {
+      "type": "file",
+      "format": "NWB",
+      "spec": "318808419.nwb",
+      "key": "stimulus_path"
+    },
+    {
+      "parent_key": "WORKDIR",
+      "type": "file",
+      "format": "NWB",
+      "spec": "318808419.nwb",
+      "key": "output"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+index type x y z tuning morphology cell_par
+0 Scnn1a 28.753 161.705 5.132 0.0 example_1/cell_models/395830185/Scnn1a-Tg3-Cre_Ai14_IVSCC_-177300.01.02.01_473845048_m.swc example_1/cell_models/395830185/472363762_fit.json
+1 Scnn1a 90.095 -95.061 -41.935 180.0 example_1/cell_models/395830185/Scnn1a-Tg3-Cre_Ai14_IVSCC_-177300.01.02.01_473845048_m.swc example_1/cell_models/395830185/472363762_fit.json
+2 Rorb 75.852 -312.582 -25.985 0.0 example_1/cell_models/314804042/Rorb-IRES2-Cre-D_Ai14_IVSCC_-168053.05.01.01_325404214_m.swc example_1/cell_models/314804042/473863510_fit.json
+3 Rorb -22.738 -8.452 43.956 180.0 example_1/cell_models/314804042/Rorb-IRES2-Cre-D_Ai14_IVSCC_-168053.05.01.01_325404214_m.swc example_1/cell_models/314804042/473863510_fit.json
+4 Nr5a1 79.136 193.451 24.242 0.0 example_1/cell_models/318808427/Nr5a1-Cre_Ai14_IVSCC_-169250.03.02.01_471087815_m.swc example_1/cell_models/318808427/473863035_fit.json
+5 Nr5a1 -304.100 -77.848 -31.042 180.0 example_1/cell_models/318808427/Nr5a1-Cre_Ai14_IVSCC_-169250.03.02.01_471087815_m.swc example_1/cell_models/318808427/473863035_fit.json
+6 PV1 -130.063 -341.596 11.121 None example_1/cell_models/330080937/Pvalb-IRES-Cre_Ai14_IVSCC_-176847.04.02.01_470522102_m.swc example_1/cell_models/330080937/472912177_fit.json
+7 PV1 -151.367 247.909 -25.224 None example_1/cell_models/330080937/Pvalb-IRES-Cre_Ai14_IVSCC_-176847.04.02.01_470522102_m.swc example_1/cell_models/330080937/472912177_fit.json
+8 PV2 135.449 -151.770 -7.968 None example_1/cell_models/318331342/Pvalb-IRES-Cre_Ai14_IVSCC_-169125.03.01.01_469628681_m.swc example_1/cell_models/318331342/473862421_fit.json
+9 PV2 -322.867 -44.969 -24.682 None example_1/cell_models/318331342/Pvalb-IRES-Cre_Ai14_IVSCC_-169125.03.01.01_469628681_m.swc example_1/cell_models/318331342/473862421_fit.json
+10 LIF_exc 93.396 830.695 20.426 0 None None
+11 LIF_exc -812.821 29.825 -29.450 120.0 None None
+12 LIF_exc -812.821 29.825 -29.450 240.0 None None
+13 LIF_inh 123.816 -704.620 -5.732 None None None
+14 LIF_inh -471.148 458.264 -16.688 None None None
